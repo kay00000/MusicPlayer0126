@@ -14,6 +14,21 @@
 		974810F420120A4B00F804C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974810F220120A4B00F804C1 /* LaunchScreen.storyboard */; };
 		974810FF20120A4C00F804C1 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974810FE20120A4C00F804C1 /* MusicPlayerTests.swift */; };
 		9748110A20120A4C00F804C1 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748110920120A4C00F804C1 /* MusicPlayerUITests.swift */; };
+		974811222012178300F804C1 /* icon_tab_albums_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 974811182012178300F804C1 /* icon_tab_albums_normal@2x.png */; };
+		974811232012178300F804C1 /* icon_tab_albums_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 974811192012178300F804C1 /* icon_tab_albums_selected@2x.png */; };
+		974811242012178300F804C1 /* icon_tab_lifestyle_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9748111A2012178300F804C1 /* icon_tab_lifestyle_normal@2x.png */; };
+		974811252012178300F804C1 /* icon_tab_playlists_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9748111B2012178300F804C1 /* icon_tab_playlists_selected@2x.png */; };
+		974811262012178300F804C1 /* icon_tab_history_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9748111C2012178300F804C1 /* icon_tab_history_normal@2x.png */; };
+		974811272012178300F804C1 /* icon_tab_songs_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9748111D2012178300F804C1 /* icon_tab_songs_selected@2x.png */; };
+		974811282012178300F804C1 /* icon_tab_history_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9748111E2012178300F804C1 /* icon_tab_history_selected@2x.png */; };
+		974811292012178300F804C1 /* icon_tab_lifestyle_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9748111F2012178300F804C1 /* icon_tab_lifestyle_selected@2x.png */; };
+		9748112A2012178300F804C1 /* icon_tab_playlists_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 974811202012178300F804C1 /* icon_tab_playlists_normal@2x.png */; };
+		9748112B2012178300F804C1 /* icon_tab_songs_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 974811212012178300F804C1 /* icon_tab_songs_normal@2x.png */; };
+		9748112E20121EB200F804C1 /* PlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748112C20121EB200F804C1 /* PlaylistsViewController.swift */; };
+		9748112F20121EB200F804C1 /* PlaylistsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9748112D20121EB200F804C1 /* PlaylistsViewController.xib */; };
+		9748113620122A7000F804C1 /* AlbumsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9748113420122A7000F804C1 /* AlbumsStoryboard.storyboard */; };
+		97CBB0212013141000E06067 /* PlaylistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBB01F2013141000E06067 /* PlaylistsTableViewController.swift */; };
+		97CBB0222013141000E06067 /* PlaylistsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97CBB0202013141000E06067 /* PlaylistsTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		9748110520120A4C00F804C1 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9748110920120A4C00F804C1 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		9748110B20120A4C00F804C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974811182012178300F804C1 /* icon_tab_albums_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_albums_normal@2x.png"; path = "../../../../Downloads/icon/icon_tab_albums_normal@2x.png"; sourceTree = "<group>"; };
+		974811192012178300F804C1 /* icon_tab_albums_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_albums_selected@2x.png"; path = "../../../../Downloads/icon/icon_tab_albums_selected@2x.png"; sourceTree = "<group>"; };
+		9748111A2012178300F804C1 /* icon_tab_lifestyle_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_lifestyle_normal@2x.png"; path = "../../../../Downloads/icon/icon_tab_lifestyle_normal@2x.png"; sourceTree = "<group>"; };
+		9748111B2012178300F804C1 /* icon_tab_playlists_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_playlists_selected@2x.png"; path = "../../../../Downloads/icon/icon_tab_playlists_selected@2x.png"; sourceTree = "<group>"; };
+		9748111C2012178300F804C1 /* icon_tab_history_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_history_normal@2x.png"; path = "../../../../Downloads/icon/icon_tab_history_normal@2x.png"; sourceTree = "<group>"; };
+		9748111D2012178300F804C1 /* icon_tab_songs_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_songs_selected@2x.png"; path = "../../../../Downloads/icon/icon_tab_songs_selected@2x.png"; sourceTree = "<group>"; };
+		9748111E2012178300F804C1 /* icon_tab_history_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_history_selected@2x.png"; path = "../../../../Downloads/icon/icon_tab_history_selected@2x.png"; sourceTree = "<group>"; };
+		9748111F2012178300F804C1 /* icon_tab_lifestyle_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_lifestyle_selected@2x.png"; path = "../../../../Downloads/icon/icon_tab_lifestyle_selected@2x.png"; sourceTree = "<group>"; };
+		974811202012178300F804C1 /* icon_tab_playlists_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_playlists_normal@2x.png"; path = "../../../../Downloads/icon/icon_tab_playlists_normal@2x.png"; sourceTree = "<group>"; };
+		974811212012178300F804C1 /* icon_tab_songs_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_tab_songs_normal@2x.png"; path = "../../../../Downloads/icon/icon_tab_songs_normal@2x.png"; sourceTree = "<group>"; };
+		9748112C20121EB200F804C1 /* PlaylistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsViewController.swift; sourceTree = "<group>"; };
+		9748112D20121EB200F804C1 /* PlaylistsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistsViewController.xib; sourceTree = "<group>"; };
+		9748113520122A7000F804C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MusicPlayer/Base.lproj/AlbumsStoryboard.storyboard; sourceTree = "<group>"; };
+		97CBB01F2013141000E06067 /* PlaylistsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewController.swift; sourceTree = "<group>"; };
+		97CBB0202013141000E06067 /* PlaylistsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistsTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +127,18 @@
 		974810E820120A4B00F804C1 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				9748113420122A7000F804C1 /* AlbumsStoryboard.storyboard */,
+				974811172012175000F804C1 /* img */,
 				974810E920120A4B00F804C1 /* AppDelegate.swift */,
 				974810EB20120A4B00F804C1 /* ViewController.swift */,
 				974810ED20120A4B00F804C1 /* Main.storyboard */,
 				974810F020120A4B00F804C1 /* Assets.xcassets */,
 				974810F220120A4B00F804C1 /* LaunchScreen.storyboard */,
 				974810F520120A4B00F804C1 /* Info.plist */,
+				9748112C20121EB200F804C1 /* PlaylistsViewController.swift */,
+				9748112D20121EB200F804C1 /* PlaylistsViewController.xib */,
+				97CBB01F2013141000E06067 /* PlaylistsTableViewController.swift */,
+				97CBB0202013141000E06067 /* PlaylistsTableViewController.xib */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -123,6 +159,23 @@
 				9748110B20120A4C00F804C1 /* Info.plist */,
 			);
 			path = MusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		974811172012175000F804C1 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				974811182012178300F804C1 /* icon_tab_albums_normal@2x.png */,
+				974811192012178300F804C1 /* icon_tab_albums_selected@2x.png */,
+				9748111C2012178300F804C1 /* icon_tab_history_normal@2x.png */,
+				9748111E2012178300F804C1 /* icon_tab_history_selected@2x.png */,
+				9748111A2012178300F804C1 /* icon_tab_lifestyle_normal@2x.png */,
+				9748111F2012178300F804C1 /* icon_tab_lifestyle_selected@2x.png */,
+				974811202012178300F804C1 /* icon_tab_playlists_normal@2x.png */,
+				9748111B2012178300F804C1 /* icon_tab_playlists_selected@2x.png */,
+				974811212012178300F804C1 /* icon_tab_songs_normal@2x.png */,
+				9748111D2012178300F804C1 /* icon_tab_songs_selected@2x.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +285,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9748112A2012178300F804C1 /* icon_tab_playlists_normal@2x.png in Resources */,
+				974811222012178300F804C1 /* icon_tab_albums_normal@2x.png in Resources */,
 				974810F420120A4B00F804C1 /* LaunchScreen.storyboard in Resources */,
+				974811292012178300F804C1 /* icon_tab_lifestyle_selected@2x.png in Resources */,
+				974811232012178300F804C1 /* icon_tab_albums_selected@2x.png in Resources */,
+				974811262012178300F804C1 /* icon_tab_history_normal@2x.png in Resources */,
 				974810F120120A4B00F804C1 /* Assets.xcassets in Resources */,
+				974811242012178300F804C1 /* icon_tab_lifestyle_normal@2x.png in Resources */,
+				974811282012178300F804C1 /* icon_tab_history_selected@2x.png in Resources */,
+				9748113620122A7000F804C1 /* AlbumsStoryboard.storyboard in Resources */,
+				97CBB0222013141000E06067 /* PlaylistsTableViewController.xib in Resources */,
 				974810EF20120A4B00F804C1 /* Main.storyboard in Resources */,
+				9748112F20121EB200F804C1 /* PlaylistsViewController.xib in Resources */,
+				9748112B2012178300F804C1 /* icon_tab_songs_normal@2x.png in Resources */,
+				974811272012178300F804C1 /* icon_tab_songs_selected@2x.png in Resources */,
+				974811252012178300F804C1 /* icon_tab_playlists_selected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +326,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				974810EC20120A4B00F804C1 /* ViewController.swift in Sources */,
+				97CBB0212013141000E06067 /* PlaylistsTableViewController.swift in Sources */,
+				9748112E20121EB200F804C1 /* PlaylistsViewController.swift in Sources */,
 				974810EA20120A4B00F804C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +378,14 @@
 				974810F320120A4B00F804C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9748113420122A7000F804C1 /* AlbumsStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9748113520122A7000F804C1 /* Base */,
+			);
+			name = AlbumsStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,7 +506,7 @@
 				DEVELOPMENT_TEAM = 4N62YTAT8M;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kay00000.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kay00000.musicplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +521,7 @@
 				DEVELOPMENT_TEAM = 4N62YTAT8M;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kay00000.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kay00000.musicplayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
