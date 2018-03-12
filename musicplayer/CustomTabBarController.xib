@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomTabBarController" customModule="musicplayer" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tabBarController id="9Cd-Un-Ee5" customClass="CustomTabBarController" customModule="musicplayer" customModuleProvider="target">
+            <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g2q-UE-RTF">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </tabBar>
+            <viewControllers>
+                <viewController nibName="" automaticallyAdjustsScrollViewInsets="NO" id="Tk7-qV-g3Y" customClass="PlaylistsController" customModule="musicplayer" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="l6E-uu-NAI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="gap-Wa-P9D"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Playlists" image="icon_tab_playlists_normal.png" selectedImage="icon_tab_playlists_selected.png" id="tW8-6n-aeD"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController title="Songs" nibName="songs" automaticallyAdjustsScrollViewInsets="NO" id="qUD-EX-Sxo">
+                    <view key="view" contentMode="scaleToFill" id="53Q-bW-vVB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="clj-N6-BSm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Songs" image="icon_tab_songs_normal.png" selectedImage="icon_tab_songs_selected.png" id="1OP-mD-xoE"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController title="Albums" nibName="albums" automaticallyAdjustsScrollViewInsets="NO" id="PWt-9B-Ti3">
+                    <view key="view" contentMode="scaleToFill" id="QEm-X7-GJZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="tfp-TI-7mj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Albums" image="icon_tab_albums_normal.png" selectedImage="icon_tab_albums_selected.png" id="GFZ-Bx-UNz"/>
+                    <toolbarItems/>
+                </viewController>
+                <viewController title="History" nibName="history" id="b39-r9-3jx">
+                    <view key="view" contentMode="scaleToFill" id="eKt-OU-dxw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Bfu-Lq-L1N"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="History" image="icon_tab_history_normal.png" selectedImage="icon_tab_history_selected.png" id="N1U-U7-56O"/>
+                </viewController>
+                <viewController title="Lifestyle" nibName="lifestyle" id="kAF-eH-sQR">
+                    <view key="view" contentMode="scaleToFill" id="ShJ-fg-Nws">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="TIA-2R-vsL"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lifestyle" image="icon_tab_lifestyle_normal.png" selectedImage="icon_tab_lifestyle_selected.png" id="J3u-m9-v7Q"/>
+                </viewController>
+            </viewControllers>
+            <point key="canvasLocation" x="-65" y="12"/>
+        </tabBarController>
+    </objects>
+    <resources>
+        <image name="icon_tab_albums_normal.png" width="34" height="34"/>
+        <image name="icon_tab_albums_selected.png" width="34" height="34"/>
+        <image name="icon_tab_history_normal.png" width="34" height="34"/>
+        <image name="icon_tab_history_selected.png" width="34" height="34"/>
+        <image name="icon_tab_lifestyle_normal.png" width="34" height="34"/>
+        <image name="icon_tab_lifestyle_selected.png" width="34" height="34"/>
+        <image name="icon_tab_playlists_normal.png" width="34" height="34"/>
+        <image name="icon_tab_playlists_selected.png" width="34" height="34"/>
+        <image name="icon_tab_songs_normal.png" width="34" height="34"/>
+        <image name="icon_tab_songs_selected.png" width="34" height="34"/>
+    </resources>
+</document>

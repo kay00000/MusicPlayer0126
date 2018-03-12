@@ -1,14 +1,14 @@
 //
-//  MusicPlayerUITests.swift
-//  MusicPlayerUITests
+//  musicplayerUITests.swift
+//  musicplayerUITests
 //
-//  Created by okura on 2018/01/19.
+//  Created by okura on 2018/01/16.
 //  Copyright © 2018年 kay00000. All rights reserved.
 //
 
 import XCTest
 
-class MusicPlayerUITests: XCTestCase {
+class musicplayerUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
