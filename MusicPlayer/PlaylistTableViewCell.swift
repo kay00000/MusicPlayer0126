@@ -10,6 +10,9 @@ import UIKit
 
 class PlaylistTableViewCell: UITableViewCell {
     
+    @IBOutlet var playlistTitle:UILabel!
+    @IBOutlet var playlistArtWork:UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

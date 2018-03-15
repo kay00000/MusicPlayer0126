@@ -10,6 +10,8 @@ import UIKit
 
 class PlaylistsTableViewController: UITableViewController {
     
+    var elements = ["playlist1","playlist2","playlist3","playlist4","playlist5","playlist6"]
+    
     func start(){
         print("start")
     }
@@ -34,20 +36,21 @@ class PlaylistsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        print("aaaa")
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
-/*
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        tableView.rowHeight = 100 //セルの高さ
-        return 0
+        return elements.count
     }
-*/
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-        let cell = PlaylistTableViewCell()
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PlaylistCell") as! PlaylistTableViewCell
+        cell.playlistTitle.text = elements[indexPath.row]
+        
         print("cell")
         //cell.setMediaItem(mediaItem)
         // PlaylistCellとAlbumCellを作成
