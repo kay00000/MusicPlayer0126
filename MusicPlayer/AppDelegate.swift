@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  musicplayer
+//  MusicPlayer
 //
-//  Created by okura on 2018/01/16.
+//  Created by okura on 2018/01/19.
 //  Copyright © 2018年 kay00000. All rights reserved.
 //
 
@@ -10,18 +10,12 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-    var viewController : CustomTabBarController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        viewController = CustomTabBarController()
-        self.window?.rootViewController = viewController
-        self.window?.makeKeyAndVisible()
         return true
     }
 
